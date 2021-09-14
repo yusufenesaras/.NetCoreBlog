@@ -1,0 +1,12 @@
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
