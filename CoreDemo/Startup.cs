@@ -1,3 +1,5 @@
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -21,9 +23,16 @@ namespace CoreDemo
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)  
         {
             services.AddControllersWithViews();
+            services.AddSingleton<IBlogService, BlogManager>();
+            services.AddSingleton<ICategoryService, CategoryManager>();
+
+            services.AddCors();
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

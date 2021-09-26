@@ -12,9 +12,20 @@ namespace CoreDemo.Controllers
     public class BlogController : Controller
     {
         BlogManager blogManager = new BlogManager(new EfBlogRepository());
+        //private readonly IBlogService _blogService;
+        //public BlogController(IBlogService blogService)
+        //{
+        //    _blogService = blogService;
+        //}
+
         public IActionResult Index()
         {
-            var values = blogManager.GetList();
+            var values = blogManager.GetBlogListWithCategory();
+            return View(values);
+        }
+        public IActionResult BlogReadAll(int id)
+        {
+            var values = blogManager.GetBlogById(id);
             return View(values);
         }
     }
