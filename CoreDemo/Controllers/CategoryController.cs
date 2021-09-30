@@ -11,7 +11,6 @@ namespace CoreDemo.Controllers
 {
     public class CategoryController : Controller
     {
-        //
         CategoryManager categoryManager = new CategoryManager(new EfCategoryRepository());
         //private readonly ICategoryService _categoryService;
         //public CategoryController(ICategoryService categoryService)

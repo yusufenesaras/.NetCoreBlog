@@ -1,21 +1,14 @@
 ﻿@model IEnumerable<EntityLayer.Concrete.Blog>
+
 @{
     ViewData["Title"] = "BlogDetails";
     Layout = "~/Views/Shared/UserLayout.cshtml";
 }
 
-<!--
-    Author: W3layouts
-    Author URL: http://w3layouts.com
-    License: Creative Commons Attribution 3.0 Unported
-    License URL: http://creativecommons.org/licenses/by/3.0/
--->
 
-<!DOCTYPE html>
 <html lang="zxx">
-
-
 <body>
+
     <!--//banner-->
     <section class="banner-bottom">
         <!--/blog-->
@@ -25,8 +18,6 @@
                 <div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
                     @foreach (var item in Model)
                     {
-
-
                         <div class="blog-grid-top">
                             <div class="b-grid-top">
                                 <div class="blog_info_left_grid">
@@ -38,26 +29,26 @@
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <i class="far fa-calendar-alt"></i> @(((DateTime)
-                            item.BlogCreateDate).ToString("dd.MMM.yyyy"))
+                                                <i class="far fa-calendar-alt"></i> @(((DateTime)item.BlogCreateDate).ToString("dd-MMM-yyyy"))
                                             </a>
                                         </li>
                                         <li class="mx-2">
                                             <a href="#">
-                                                <i class="far fa-thumbs-up"></i> 0 Likes
+                                                <i class="far fa-thumbs-up"></i> 0 Beğeni
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i class="far fa-comment"></i> 0 Comments
+                                                <i class="far fa-comment"></i> 0 Yorum
                                             </a>
                                         </li>
 
                                     </ul>
                                 </div>
                             </div>
+
                             <h3>
-                                <a href="single.html">@item.BlogTitle>
+                                <a href="single.html">@item.BlogTitle </a>
                             </h3>
                             <p>
                                 @item.BlogContent
@@ -65,9 +56,10 @@
                             <a href="/Blog/Index/" class="btn btn-primary read-m">Blog Listesi</a>
                         </div>
                     }
-                    @await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")
-                    @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
 
+                    @await Component.InvokeAsync("CommentListByBlog", new { id = ViewBag.i })
+                    @*@await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
+                    @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
 
                 </div>
 
@@ -76,7 +68,7 @@
                 <aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
                     <div class="right-blog-info text-left">
                         <div class="tech-btm">
-                            <img src="~/NetBlogTema/images/banner1.jpg" class="img-fluid" alt="">
+                            <img src="images/banner1.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="tech-btm">
                             <h4>Sign up to our newsletter</h4>
@@ -87,30 +79,14 @@
                             </form>
 
                         </div>
+                        @await Component.InvokeAsync("CategoryList")
                         <div class="tech-btm">
-                            <h4>Categories</h4>
-                            <ul class="list-group single">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Cras justo odio
-                                    <span class="badge badge-primary badge-pill">14</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Dapibus ac facilisis in
-                                    <span class="badge badge-primary badge-pill">2</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Morbi leo risus
-                                    <span class="badge badge-primary badge-pill">1</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tech-btm">
-                            <h4>Top stories of the week</h4>
+                            <h4>Yazarın Diğer Yazıları</h4>
 
                             <div class="blog-grids row mb-3">
                                 <div class="col-md-5 blog-grid-left">
                                     <a href="single.html">
-                                        <img src="images/1.jpg" class="img-fluid" alt="">
+                                        <img src="~/NetBlogTema/images/1.jpg" class="img-fluid" alt="">
                                     </a>
                                 </div>
                                 <div class="col-md-7 blog-grid-right">
@@ -124,12 +100,11 @@
                                         </span>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="blog-grids row mb-3">
                                 <div class="col-md-5 blog-grid-left">
                                     <a href="single.html">
-                                        <img src="images/6.jpg" class="img-fluid" alt="">
+                                        <img src="~/NetBlogTema/images/6.jpg" class="img-fluid" alt="">
                                     </a>
                                 </div>
                                 <div class="col-md-7 blog-grid-right">
@@ -142,7 +117,6 @@
                                         </span>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="single-gd my-5 tech-btm">
@@ -169,11 +143,11 @@
                             </div>
                         </div>
                         <div class="single-gd tech-btm">
-                            <h4>Recent Post</h4>
+                            <h4>Son Eklenen Post</h4>
                             <div class="blog-grids">
                                 <div class="blog-grid-left">
                                     <a href="single.html">
-                                        <img src="images/b1.jpg" class="img-fluid" alt="">
+                                        <img src="~/NetBlogTema/images/b1.jpg" class="img-fluid" alt="">
                                     </a>
                                 </div>
                                 <div class="blog-grid-right">
@@ -186,11 +160,9 @@
                             </div>
                         </div>
                     </div>
-
                 </aside>
             </div>
         </div>
     </section>
 </body>
 </html>
-

@@ -162,3 +162,6 @@ C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\V
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Comment\CommentListByBlog.cshtml.g.cs
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Autofac.dll
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentList\Default.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
