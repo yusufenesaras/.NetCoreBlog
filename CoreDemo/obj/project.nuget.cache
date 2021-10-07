@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yibR6dSgCF1r7YvbTqdXMBvrUyeDMw6MiIfHAIn2FQPoaDlgb4wkZVXBNQtNKETethgg6B43EvRoNTwii0Ah3A==",
+  "dgSpecHash": "BGfI3GPaIaX0+Q2dnGnDGMBINdBZJcQ7739bmcU67aLhGa1M1sTgyZCZGiCeglv/2+xV+/SS4eElkSIkvf6Glw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
