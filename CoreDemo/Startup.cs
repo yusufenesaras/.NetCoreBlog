@@ -1,8 +1,10 @@
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,10 +28,16 @@ namespace CoreDemo
         public void ConfigureServices(IServiceCollection services)  
         {
             services.AddControllersWithViews();
-            services.AddSingleton<IBlogService, BlogManager>();
-            services.AddSingleton<ICategoryService, CategoryManager>();
 
-            services.AddCors();
+            services.AddSession();
+
+            services.AddMvc(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
 
         }
 
@@ -53,6 +61,8 @@ namespace CoreDemo
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseRouting();
 
