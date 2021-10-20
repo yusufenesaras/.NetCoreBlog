@@ -183,3 +183,7 @@ C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\V
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogLast3Post\Default.cshtml.g.cs
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\WriterLayout.cshtml.g.cs
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Test.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterNavbarPartial.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterFooterPartial.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
