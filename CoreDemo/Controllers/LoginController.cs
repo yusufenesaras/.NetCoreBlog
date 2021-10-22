@@ -14,13 +14,13 @@ namespace CoreDemo.Controllers
 {
     public class LoginController : Controller
     {
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public IActionResult Index()
         {
             return View();
         }
         [HttpPost]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<IActionResult> Index(Writer p)
         {
             Context c = new Context();

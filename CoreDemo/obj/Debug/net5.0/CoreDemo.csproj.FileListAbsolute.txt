@@ -187,3 +187,6 @@ C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\V
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterFooterPartial.cshtml.g.cs
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
 C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
+C:\Users\Yusuf Enes Aras\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\RegisterContoller\Index.cshtml.g.cs
